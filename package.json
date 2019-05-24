@@ -1,0 +1,21 @@
+{
+  "name": "lit-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001",
+    "storybook:build": "build-storybook -o _site -s storybook-static",
+    "site:build": "npm run storybook:build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@open-wc/demoing-storybook": "^0.2.3"
+  },
+  "dependencies": {
+    "lit-element": "^2.1.0",
+    "lit-html": "^1.1.0"
+  }
+}
